@@ -2,3 +2,45 @@
 ## Selecties  
 ## Verkeerslichten  
 
+Nadat je de startcode hebt binnengehaald verschijnen volgende controls op je venster :   
+![img1](assets/oe1_1.png)  
+
+Je zal in je solution explorer ook merken dat een map werd opgenomen met de naam “afbeeldingen” waarin zich 3 afbeeldingen bevinden :  
+![img1](assets/oe1_2.png)   
+
+De bedoeling van het programma is om random getallen te genereren van 1 t/m3 (dus of 1 of 2 of 3).  
+Wanneer het getal = 1, dan moet :     
+  * lblInfo in het oranje gekleurd worden  
+  * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
+  * in imgTrafficLight de correcte afbeelding te verschijnen  
+![img1](assets/oe1_3.png)    
+
+Wanneer het getal = 2, dan moet :  
+  * lblInfo in het rood  gekleurd worden  
+  * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
+  * in imgTrafficLight de correcte afbeelding te verschijnen  
+![img1](assets/oe1_4.png)    
+
+Wanneer het getal = 3, dan moet :   
+  * lblInfo in het groen  gekleurd worden  
+  * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
+  * in imgTrafficLight de correcte afbeelding te verschijnen  
+![img1](assets/oe1_5.png)    
+
+Het random getal genereer je zowel bij het opstarten van het programma als wanneer op btnNext wordt geklikt.  Uiteraard voer je dan alle hierboven beschreven acties uit.  
+  
+De code om de afbeelding in imgTrafficLight te plaatsen is in je project reeds aanwezig via de methode SetTrafficLigtImagePath.  
+Naar deze methode stuur je als string de naam van de afbeelding die dient gebruikt te worden (dus ofwel “verkeer_groen.png”, ofwel “verkeer_oranje.png” ofwel “verkeer_rood.png”).  
+De exacte betekenis van deze instructies kom je verderop in je opleiding nog te weten.  Nu dien je alleen deze methode te kunnen toepassen.  
+
+```Random getallen
+In c# is een random generator aanwezig.
+Omdat je deze random generator op meerdere plaatsen zal nodig hebben, doe je er goed aan om deze globaal aan te maken.
+De generator maak je als volgt aan : 
+Random rnd = new Random();
+waarbij “rnd” nu dus je random generator is.
+
+Om deze random generator (rnd dus) te gebruiken, pas je de Next methode toe.  Dit doe je bijvoorbeeld als volgt : 
+	int willekeurigGetal = rnd.Next(1,4);
+
+
