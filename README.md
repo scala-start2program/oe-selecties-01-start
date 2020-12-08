@@ -38,14 +38,20 @@ De exacte betekenis van deze instructies kom je verderop in je opleiding nog te 
 > Omdat je deze random generator op meerdere plaatsen zal nodig hebben, doe je er goed aan om deze globaal aan te maken.  
 > De generator maak je als volgt aan :   
 > 
-> 	Random rnd = new Random();  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Random rnd = new Random();  
 > 
 > waarbij “rnd” nu dus je random generator is.  
 > 
 > Om deze random generator (rnd dus) te gebruiken, pas je de Next methode toe.  Dit doe je bijvoorbeeld als volgt :  
 > 
-> 	int willekeurigGetal = rnd.Next(1,4);  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int willekeurigGetal = rnd.Next(1,4);  
 > 
 > In de variabele willekeurigGetal zit nu een willekeurig getal gaande van 1 tot 3 (dus ofwel 1, ofwel 2 ofwel 3).  Hierbij is dus het eerste argument (in dit voorbeeld dus 1) de ondergrens, en is het tweede argument (hier dus  4) de bovengrens + 1 : je dient als tweede argument dus steeds een waarde te kiezen die net één groter is dan de maximale te genereren waarde.  
 
+> **Achtergrondkleur instellen**   
+> De achtergrondkleur van lblInfo kan je bijvoorbeeld als volgt in het oranje kleuren :   
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lblInfo.Background = Brushes.Orange;  
+> Je gebruikt hier dus de Brushes klasse voor.   
+> Wil je ook de voorgrondkleur aanpassen, dan zoek je dat zelf even op internet op.  
+ 
 
