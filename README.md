@@ -3,7 +3,8 @@
 ## Verkeerslichten  
 
 Nadat je de startcode hebt binnengehaald verschijnen volgende controls op je venster :   
-![img1](assets/oe1_1.png width="400") 
+<img src="assets/oe1_1.png" width="600" >
+
 Je zal in je solution explorer ook merken dat een map werd opgenomen met de naam “afbeeldingen” waarin zich 3 afbeeldingen bevinden :  
 ![img1](assets/oe1_2.png)   
 
@@ -12,19 +13,19 @@ Wanneer het getal = 1, dan moet :
   * lblInfo in het oranje gekleurd worden  
   * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
   * in imgTrafficLight de correcte afbeelding te verschijnen  
-![img1](assets/oe1_3.png)    
+<img src="assets/oe1_3.png" width="400" >    
 
 Wanneer het getal = 2, dan moet :  
   * lblInfo in het rood  gekleurd worden  
   * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
   * in imgTrafficLight de correcte afbeelding te verschijnen  
-![img1](assets/oe1_4.png)    
+<img src="assets/oe1_4.png" width="400" >     
 
 Wanneer het getal = 3, dan moet :   
   * lblInfo in het groen  gekleurd worden  
   * er in lblInfo een aangepaste tekst te verschijnen (zie afbeelding)  
   * in imgTrafficLight de correcte afbeelding te verschijnen  
-![img1](assets/oe1_5.png)    
+<img src="assets/oe1_5.png" width="400" >     
 
 Het random getal genereer je zowel bij het opstarten van het programma als wanneer op btnNext wordt geklikt.  Uiteraard voer je dan alle hierboven beschreven acties uit.  
   
