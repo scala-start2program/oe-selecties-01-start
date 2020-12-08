@@ -33,14 +33,19 @@ De code om de afbeelding in imgTrafficLight te plaatsen is in je project reeds a
 Naar deze methode stuur je als string de naam van de afbeelding die dient gebruikt te worden (dus ofwel “verkeer_groen.png”, ofwel “verkeer_oranje.png” ofwel “verkeer_rood.png”).  
 De exacte betekenis van deze instructies kom je verderop in je opleiding nog te weten.  Nu dien je alleen deze methode te kunnen toepassen.  
 
-```Random getallen
-In c# is een random generator aanwezig.
-Omdat je deze random generator op meerdere plaatsen zal nodig hebben, doe je er goed aan om deze globaal aan te maken.
-De generator maak je als volgt aan : 
-Random rnd = new Random();
-waarbij “rnd” nu dus je random generator is.
-
-Om deze random generator (rnd dus) te gebruiken, pas je de Next methode toe.  Dit doe je bijvoorbeeld als volgt : 
-	int willekeurigGetal = rnd.Next(1,4);
+> **Random getallen**  
+> In c# is een random generator aanwezig.  
+> Omdat je deze random generator op meerdere plaatsen zal nodig hebben, doe je er goed aan om deze globaal aan te maken.  
+> De generator maak je als volgt aan :   
+> 
+> 	Random rnd = new Random();  
+> 
+> waarbij “rnd” nu dus je random generator is.  
+> 
+> Om deze random generator (rnd dus) te gebruiken, pas je de Next methode toe.  Dit doe je bijvoorbeeld als volgt :  
+> 
+> 	int willekeurigGetal = rnd.Next(1,4);  
+> 
+> In de variabele willekeurigGetal zit nu een willekeurig getal gaande van 1 tot 3 (dus ofwel 1, ofwel 2 ofwel 3).  Hierbij is dus het eerste argument (in dit voorbeeld dus 1) de ondergrens, en is het tweede argument (hier dus  4) de bovengrens + 1 : je dient als tweede argument dus steeds een waarde te kiezen die net één groter is dan de maximale te genereren waarde.  
 
 
