@@ -3,10 +3,10 @@
 ## Verkeerslichten  
 
 Nadat je de startcode hebt binnengehaald verschijnen volgende controls op je venster :   
-<img src="assets/oe1_1.png" width="600" >
+<img src="assets/oe1_1.png" width="660" >
 
 Je zal in je solution explorer ook merken dat een map werd opgenomen met de naam “afbeeldingen” waarin zich 3 afbeeldingen bevinden :  
-![img1](assets/oe1_2.png)   
+<img src="assets/oe1_2.png" width="300" >   
 
 De bedoeling van het programma is om random getallen te genereren van 1 t/m3 (dus of 1 of 2 of 3).  
 Wanneer het getal = 1, dan moet :     
@@ -48,10 +48,11 @@ De exacte betekenis van deze instructies kom je verderop in je opleiding nog te 
 > 
 > In de variabele willekeurigGetal zit nu een willekeurig getal gaande van 1 tot 3 (dus ofwel 1, ofwel 2 ofwel 3).  Hierbij is dus het eerste argument (in dit voorbeeld dus 1) de ondergrens, en is het tweede argument (hier dus  4) de bovengrens + 1 : je dient als tweede argument dus steeds een waarde te kiezen die net één groter is dan de maximale te genereren waarde.  
 
+<div style="margin:20px; padding:10px; background-color:steelblue; color:white; width:100%;">
 > **Achtergrondkleur instellen**   
 > De achtergrondkleur van lblInfo kan je bijvoorbeeld als volgt in het oranje kleuren :   
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lblInfo.Background = Brushes.Orange;  
 > Je gebruikt hier dus de Brushes klasse voor.   
 > Wil je ook de voorgrondkleur aanpassen, dan zoek je dat zelf even op internet op.  
- 
+</div>
 
