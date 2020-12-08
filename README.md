@@ -3,8 +3,7 @@
 ## Verkeerslichten  
 
 Nadat je de startcode hebt binnengehaald verschijnen volgende controls op je venster :   
-![img1](assets/oe1_1.png)  
-
+![img1](assets/oe1_1.png width="400") 
 Je zal in je solution explorer ook merken dat een map werd opgenomen met de naam “afbeeldingen” waarin zich 3 afbeeldingen bevinden :  
 ![img1](assets/oe1_2.png)   
 
